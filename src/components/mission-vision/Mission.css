@@ -1,0 +1,69 @@
+.mission-vision-section {
+  width: 85%;
+  margin: 70px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.mission-section{
+
+}
+
+.vision-section{
+    
+}
+
+.mission-section,
+.vision-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.mission-title,
+.vision-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.mission-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ad77ff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vision-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ad77ff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mission-text,
+.vision-text {
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 15px;
+}
