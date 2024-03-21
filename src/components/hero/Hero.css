@@ -1,0 +1,51 @@
+.slider-parent-1,
+.slider-parent-2,
+.slider-parent-3 {
+  width: 100%;
+  height: 100svh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-parent-1 {
+  background-image: linear-gradient(rgba(15, 15, 16, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./../../../public/assets/hero-img.avif");
+}
+
+.slider-parent-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./../../../public/assets/hero-img-2.avif");
+}
+
+.slider-parent-3 {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./../../../public/assets/hero-img-3.avif");
+}
+
+.text-container {
+  /* background-color: red; */
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-title {
+  color: #92d7e6;
+  font-size: 3.3rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.hero-description{
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 25px;
+}
