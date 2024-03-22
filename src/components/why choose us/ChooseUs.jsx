@@ -6,13 +6,7 @@ function ChooseUs() {
     <div className="choose-us-section-parent">
       <section class="chooseUsSection">
         <div class="chooseUsSectionTitles">
-          <p class="chooseUsSectionTitle">Why Choose Us JARD ?</p>
-          {/* <h2 class="chooseUsSectionDescription">
-            We stand out through a combination of extensive experience and
-            exceptional credentials. Our commitment to ongoing engagement and
-            collaboration ensures that we consistently deliver exceptional value
-            to you
-          </h2> */}
+          <p class="chooseUsSectionTitle">Why Choose JARD ?</p>
         </div>
 
         {/* <!-- Choose Us cards --> */}
@@ -20,10 +14,10 @@ function ChooseUs() {
           {/* <!-- Card one --> */}
           <section class="chooseUsCards">
             <img
-              src="./Assets//Icons/icons8-molecules-48.png"
+              src="./assets/expert-icon.png"
               alt="Expert"
-              width="50px"
-              height="50px"
+              width="70px"
+              height="70px"
               loading="lazy"
               class="chooseUsCardIcon"
             />
@@ -40,10 +34,10 @@ function ChooseUs() {
 
           <section class="chooseUsCards">
             <img
-              src="./Assets//Icons/icons8-telegram-32.png"
+              src="./assets/partners-icon.png"
               alt="Expert"
-              width="50px"
-              height="50px"
+              width="70px"
+              height="70px"
               loading="lazy"
               class="chooseUsCardIcon"
             />
@@ -60,10 +54,10 @@ function ChooseUs() {
           {/* <!-- Card three --> */}
           <section class="chooseUsCards">
             <img
-              src="./Assets//Icons/tools.png"
+              src="./assets/client-icon.png"
               alt="Expert"
-              width="50px"
-              height="50px"
+              width="70px"
+              height="70px"
               loading="lazy"
               class="chooseUsCardIcon"
             />
@@ -79,10 +73,10 @@ function ChooseUs() {
 
           <section class="chooseUsCards">
             <img
-              src="./Assets//Icons/tools.png"
+              src="./assets/accountability.png"
               alt="Expert"
-              width="50px"
-              height="50px"
+              width="70px"
+              height="70px"
               loading="lazy"
               class="chooseUsCardIcon"
             />
@@ -99,10 +93,10 @@ function ChooseUs() {
 
           <section class="chooseUsCards">
             <img
-              src="./Assets//Icons/tools.png"
+              src="./assets/sustainability-icon.png"
               alt="Expert"
-              width="50px"
-              height="50px"
+              width="70px"
+              height="70px"
               loading="lazy"
               class="chooseUsCardIcon"
             />
