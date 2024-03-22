@@ -1,0 +1,72 @@
+.choose-us-section-parent {
+  background-color: #f9f9f9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./../../../public/assets/slider-image-8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.chooseUsSection {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.chooseUsSectionTitles,
+.servicesSectionTitles {
+  width: 60%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.chooseUsSectionTitle,
+.servicesSectionTitle {
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 800;
+  color: #1d5094;
+  margin: 0px 0px 8px;
+}
+
+.chooseUsSectionDescription,
+.servicesSectionDescription {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.chooseUsCardsParent {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.chooseUsCards {
+  width: 100%;
+  padding: 30px;
+}
+
+.chooseUsCardIcon {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.chooseUsCardTitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 25px;
+  margin: 0px 0px 15px;
+}
+
+.chooseUsCardContent {
+  color: #ffffff;
+  font-size: 0.9rem;
+  line-height: 27px;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}

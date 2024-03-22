@@ -3,16 +3,33 @@
   margin: 70px auto 0px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 60px;
 }
 
-.mission-section{
-
+.mission-section {
+  width: 70%;
+  /* background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./../../../public/assets/mision-image.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: -20% 20%; */
 }
 
-.vision-section{
-    
+.vision-section {
+  width: 70%;
+  /* background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./../../../public/assets/mision-image.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: -20% 20%; */
 }
 
 .mission-section,
@@ -33,34 +50,13 @@
   line-height: 30px;
   position: relative;
   display: inline-block;
+  color: #1d5094;
 }
 
-.mission-title::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #ad77ff;
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.vision-title::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #ad77ff;
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .mission-text,
 .vision-text {
-  width: 70%;
+  /* width: 70%; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 1rem;
