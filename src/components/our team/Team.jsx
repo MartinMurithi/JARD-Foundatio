@@ -3,7 +3,7 @@ import "./Team.css";
 
 function Team() {
   return (
-    <div className="our-team-section">
+    <div className="our-team-section" id="our-team">
       <h3 className="team-title">Our Team</h3>
       <p className="team-description">
         At JARD Foundation, our dedicated team is the driving force behind our
@@ -13,20 +13,20 @@ function Team() {
         advocacy, our team brings a wealth of knowledge to the table. Each
         member is committed to our core values, ensuring that our clients
         receive the best possible guidance and assistance.
-        <p className="team-description">
-          Our team at JARD Foundation is not just a collection of individuals
-          but a cohesive unit working tirelessly to support SMEs, foster
-          entrepreneurship, and drive positive change in Kenya. Together, we are
-          committed to our vision of reducing poverty, empowering entrepreneurs,
-          and building a brighter future for our nation.
-        </p>
+      </p>{" "}
+      <p className="team-description">
+        Our team at JARD Foundation is not just a collection of individuals but
+        a cohesive unit working tirelessly to support SMEs, foster
+        entrepreneurship, and drive positive change in Kenya. Together, we are
+        committed to our vision of reducing poverty, empowering entrepreneurs,
+        and building a brighter future for our nation.
       </p>
       <div className="container">
         <div className="left-column">
           <div className="image">
             <img src="/assets/team.png" alt="Gerhard Uduny" />
             <div className="titles">
-              <h2 >Gerhard Uduny</h2>
+              <h2>Gerhard Uduny</h2>
               <strong>Director</strong>
               <br />
               <strong>Tax and Regulatory Services</strong>

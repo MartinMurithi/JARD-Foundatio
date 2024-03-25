@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <Carousel autoplay pauseOnDotsHover={true} draggable={true}>
-      <div>
+      <div id="hero">
         <div style={contentStyle} className="slider-parent-1">
           <div className="text-container">
             <h3 className="hero-title">Empowering Through Education</h3>

@@ -8,28 +8,9 @@
   gap: 60px;
 }
 
-.mission-section {
-  width: 70%;
-  /* background-image: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("./../../../public/assets/mision-image.png");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: -20% 20%; */
-}
-
+.mission-section,
 .vision-section {
   width: 70%;
-  /* background-image: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("./../../../public/assets/mision-image.png");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: -20% 20%; */
 }
 
 .mission-section,
@@ -53,13 +34,35 @@
   color: #1d5094;
 }
 
-
 .mission-text,
 .vision-text {
-  /* width: 70%; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 25px;
   margin-top: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mission-vision-section {
+    width: 90%;
+    margin: 0px auto;
+    gap: 30px;
+  }
+
+  .mission-section,
+  .vision-section {
+    width: 100%;
+  }
+
+  .mission-section,
+  .vision-section {
+    gap: 10px;
+  }
+
+  .mission-title,
+  .vision-title {
+    font-size: 1.4rem;
+  }
+
 }

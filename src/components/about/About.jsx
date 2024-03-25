@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <section className="about-section-parent">
+      <section className="about-section-parent" id='about-us' >
         <div className="about-section">
           <div className="about-us-image-parent">
             <img
