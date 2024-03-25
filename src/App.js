@@ -5,6 +5,9 @@ import Mission from './components/mission-vision/Mission';
 import Values from './components/our values/Values';
 import ChooseUs from './components/why choose us/ChooseUs';
 import Methodology from './components/methodology/Methodology';
+import Services from './components/our services/Services';
+import Team from './components/our team/Team';
+import ContactUs from './components/contacts/ContactUs';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
      <Values />
      <ChooseUs />
      <Methodology />
+     <Services />
+     <Team />
+     <ContactUs />
     </div>
   );
 }
