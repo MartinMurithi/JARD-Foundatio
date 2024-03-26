@@ -5,6 +5,7 @@ import Underline from "../underline/Underline";
 
 function Hero() {
   const contentStyle = {
+    width: "100%",
     height: "100vh",
     color: "#fff",
   };
